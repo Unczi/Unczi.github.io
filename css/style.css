@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Alata";
+    src: url(fonts/Alata/Alata-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Work_Sans";
+    src: url(fonts/Work_Sans/WorkSans-VariableFont_wght.ttf);
+}
+
+h1 {
+    font-family: Alata;
+    color: blue;
+}
+
+body {
+    background-color: #7fffd4;
+    font-family: Work_Sans;
+}
+
+a {
+    color: rgb(199, 21, 235);
+}
+
+.fo {
+    font-size: 25px;
+    font-family: Alata;
+}
