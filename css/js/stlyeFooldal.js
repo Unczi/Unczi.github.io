@@ -1,4 +1,4 @@
-normalMode()
+darkMode()
 
 function normalMode() {
     document.getElementById("css").href="css/style.css"

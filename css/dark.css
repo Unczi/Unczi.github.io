@@ -10,17 +10,17 @@
 
 h1 {
     font-family: Alata;
-    color: blue
+    color: greenyellow;
 }
 
 body {
-    background-color: black;
+    background-color: #363940;
     color: white;
     font-family: Work_Sans;
 }
 
 a {
-    color: #c715eb;
+    color: greenyellow;
 }
 
 .fo {
