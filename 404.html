@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Az oldal nem található :/</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/dark.css" id="css">
     <link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
+    <button type="button" onclick="normalMode()" id="normalMode">Normál stílus</button>
+    <br>
+    <button type="button" onclick="darkMode()" id="darkMode">Sötét stílus</button>
    <h1>404</h1>
    <p class="fo">Na, ne! Valamit elronthattál az URL beírása közben, vagy az adott oldal már nem létezik.</p>
    <p>Itt van pár ajánlott oldal:</p>
    <ul>
    <li><a href="index.html">Főoldal</a></li>
    <li><a href="/kapcsolat/index.html">Kapcsolat</a></li>
+
+   <script src="css/js/stlyeFooldal.js"></script>
 </body>
 </html>
